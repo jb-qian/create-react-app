@@ -5,8 +5,10 @@
     "module": "esnext",
     "target": "es6",
     "lib": ["es6", "dom"],
-    "sourceMap": true,
-    "allowJs": true,
+    // "alwaysStrict": true,
+    // "sourceMap": true,
+    // "allowJs": true,
+    "declaration": true,
     "jsx": "react",
     "moduleResolution": "node",
     "rootDir": "src",
@@ -18,6 +20,8 @@
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
+    "noImplicitUseStrict": true,
+    "experimentalDecorators": true,
   },
   "include": [
     "./src/**/**/*"
